@@ -18,7 +18,7 @@
 			Image = "rbxassetid://4483345998",
 			Time = 2
 		})
-		local Window = OrionLib:MakeWindow({Name = "Hydra Network |Evade|", HidePremium = false,IntroText = "Evade V2.6", SaveConfig = false, ConfigFolder = "OrionTest"})
+		local Window = OrionLib:MakeWindow({Name = "Hydra Network |Evade|", HidePremium = false,IntroText = "Evade V2.699", SaveConfig = false, ConfigFolder = "OrionTest"})
 
 		--functions and shit
 		getgenv().money = true
@@ -244,7 +244,7 @@
 		local TargetWalkspeed
 		MainTab:AddSlider({
 			Name = "Speed",
-			Min = 0,
+			Min = 100,
 			Max = 250,
 			Default = 0,
 			Color = Color3.fromRGB(128, 128, 128),
@@ -285,7 +285,7 @@
 
 		MainTab:AddSlider({
 			Name = "Jump Power",
-			Min = 0,
+			Min = 5,
 			Max = 120,
 			Default = 3,
 			Color = Color3.fromRGB(128, 128, 128),
